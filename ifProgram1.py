@@ -5,9 +5,7 @@
 print("VIEN ANGELO BERNALES | BSCOE 1-1 \n")
 
 
-def GetAge():
-    ages = int(input("Please enter your age: "))
-    return ages
+GetAge = int(input("Please enter your age: "))
 
 if GetAge > -1 and GetAge <= 12:
     print("KID")
@@ -22,5 +20,3 @@ else:
     print("ADULT")
 
 print("DONE!")
-
-YourAge = GetAge()
