@@ -7,6 +7,8 @@
 
 print("VIEN ANGELO BERNALES|BSCOE 1-1 \n")
 
+# use a math module
+
 import math 
 
 YourGrade = math.ceil(float(input("Input your grade: ")))
@@ -50,3 +52,9 @@ elif YourGrade == 75:
 elif YourGrade > 64 and YourGrade < 75:
     print("Grade/Mark: 5.0")
     print("FAILURE")
+
+else:
+    print("Grade/Mark: Inc/W/D")
+    print("Incomplete/Withdrawn/Dropped")
+
+print("\nDONE!")
