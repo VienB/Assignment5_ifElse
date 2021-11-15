@@ -3,6 +3,8 @@
 # Find the lowest number using only if-else statement.
 # Display the lowest number
 
+print("VIEN ANGELO BERNALES|BSCOE 1-1 \n")
+
 def GetNum():
     FirstNum = int(input("Enter the first number: "))
     SecondNum = int(input("Enter the second number: "))
@@ -14,5 +16,11 @@ Smallest = 0
 
 if NumberA < NumberB and NumberA < NumberC:
     Smallest = NumberA
+
+elif NumberB < NumberC:
+    Smallest = NumberB
+
+else:
+    Smallest = NumberC
 
 print(Smallest, "is the lowest number.")
