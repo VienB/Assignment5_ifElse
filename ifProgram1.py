@@ -7,9 +7,8 @@
 
 print("VIEN ANGELO BERNALES|BSCOE 1-1 \n")
 
-import math 
 
-YourGrade = math.ceil(float(input("Input your grade: ")))
+YourGrade = float(input("Input your grade: "))
 
-if YourGrade >= 97 and YourGrade <= 100 :
-    print("Grade/Mark: 1.0 = ")
+if YourGrade >= 97 and YourGrade <= 100:
+    print("Grade/Mark: 1.0 = ", round(YourGrade))
